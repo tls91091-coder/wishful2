@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(145deg, #1a1b20, #0d0f14);
+  color: #cde6ff;
+  font-family: 'Chela One', cursive;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header {
+  background: #0a0b0f;
+  border-bottom: 1px solid #3b3e45;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  color: #bcdcff;
+}
+
+header nav a {
+  color: #cde6ff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.9rem;
+}
+
+header nav .register {
+  background: #bcdcff;
+  color: #0d0f14;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.left {
+  width: 45%;
+}
+
+.left h1 {
+  font-size: 4rem;
+  color: #bcdcff;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-family: monospace;
+  line-height: 1.5;
+  color: #a6c3e8;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  font-family: monospace;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button.filled {
+  background: #bcdcff;
+  color: #0d0f14;
+}
+
+button.outline {
+  background: transparent;
+  color: #cde6ff;
+  border: 1px solid #cde6ff;
+}
+
+
+.right {
+  width: 45%;
+  border: 1px solid #3b3e45;
+  padding: 40px;
+  background: rgba(10, 12, 18, 0.6);
+  box-shadow: 0 0 20px rgba(80, 120, 160, 0.2);
+}
+
+.right h2 {
+  font-size: 1.6rem;
+  color: #bcdcff;
+  margin-bottom: 10px;
+}
+
+.right p {
+  font-family: monospace;
+  margin-bottom: 20px;
+  color: #a6c3e8;
+}
+
+.info-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.info-box {
+  background: rgba(40, 50, 60, 0.5);
+  border: 1px solid #4b5a6a;
+  padding: 15px;
+}
+
+.info-box h3 {
+  font-size: 1rem;
+  color: #bcdcff;
+  margin-bottom: 5px;
+  text-transform: lowercase;
+}
+
+.improvements {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.improvements h2 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.improvements p {
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #0a0b0f;
+  border-top: 1px solid #3b3e45;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #cde6ff;
+  margin-right: 15px;
+  text-decoration: none;
+}
