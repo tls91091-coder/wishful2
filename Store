@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>wishful.art | store</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/wishful23.css">
+</head>
+<body>
+  <header>
+    <div class="logo">wishful.art</div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav id="main-nav">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="gallery.html">gallery</a>
+      <a href="wishful-register.html">sign in</a>
+      <a href="wishful-inbox.html">suggestions</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 style="margin: 20px 60px;">Store</h1>
+
+    <section class="product-grid">
+      <!-- Replace images/art1.jpg etc with real images in images/ -->
+      <article class="product-card">
+        <img src="images/art1.jpg" alt="Art print 1" class="product-thumb">
+        <h3>Print: Dreamscape</h3>
+        <p class="price">$20.00</p>
+        <button class="filled">View</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/art2.jpg" alt="Art print 2" class="product-thumb">
+        <h3>Sticker pack</h3>
+        <p class="price">$6.00</p>
+        <button class="filled">View</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/art3.jpg" alt="Art print 3" class="product-thumb">
+        <h3>Tote bag</h3>
+        <p class="price">$18.00</p>
+        <button class="filled">View</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/art4.jpg" alt="Art print 4" class="product-thumb">
+        <h3>Limited print</h3>
+        <p class="price">$45.00</p>
+        <button class="filled">View</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="left-foot">
+      <a href="contact.html">contact</a>
+    </div>
+    <div class="right-foot">© 2025 wishful</div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
