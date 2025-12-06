@@ -1,28 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>wishful.art | register</title>
-  <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wishful.art | suggestions</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Chela One", cursive;
+      background: linear-gradient(135deg, #0d1117 0%, #1b2634 50%, #0d1117 100%);
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+    header {
+      text-align: center;
+      padding: 25px 0;
+      font-size: 40px;
+      color: #bcdcff;
+      letter-spacing: 1px;
+    }
+
+   
+    .container {
+      margin: auto;
+      width: 60%;
+      background: rgba(28, 52, 70, 0.55);
+      padding: 60px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .container p {
+      font-size: 20px;
+      margin-bottom: 40px;
+      line-height: 1.4;
+    }
+
+    
+    .inbox-btn {
+      background: #b3dbff;
+      color: #ffffff;
+      border: none;
+      padding: 40px 100px;
+      font-size: 60px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+    }
+
+    .inbox-btn:hover {
+      background: #c8e5ff;
+      transform: scale(1.03);
+    }
+
+    
+    footer {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      color: #9aa8b8;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
-  <header class="site-header"><div class="inner"><div class="logo">wishful.art</div></div></header>
 
-  <main class="auth-page">
-    <div class="card auth-card">
-      <h1>register</h1>
-      <form id="register-form" novalidate>
-        <input name="username" type="text" placeholder="username" required>
-        <input name="email" type="email" placeholder="email" required>
-        <input name="password" type="password" placeholder="password" required minlength="6">
-        <button class="btn btn-primary" type="submit">create account</button>
-      </form>
-    </div>
-  </main>
+  <header>wishful.art</header>
 
-  <footer class="site-footer"><div class="inner"><div class="right-foot">© 2025 wishful</div></div></footer>
-  <script src="js/main.js"></script>
+  <div class="container">
+    <p>
+      Leave Suggestions in the box below or send us an email at<br>
+      <strong>(tls91091@email.uccs.edu)</strong>
+    </p>
+
+    <button class="inbox-btn">Inbox</button>
+  </div>
+
+  <footer>© 2025 wishful</footer>
+
 </body>
 </html>
