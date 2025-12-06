@@ -1,47 +1,28 @@
-<!DOCTYPE html>
-<html lang="en"></html>
+<!doctype html>
+<html lang="en">
 <head>
-
-
-<head>
-
-</style>
-<link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="wishful23.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>wishful.art | register</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-<div class="logo">wishful.art</div>
-<div class="top-links">
-<a href="#">sign in</a>
-<a href="#">sign in</a>
-</div>
-</header>
+  <header class="site-header"><div class="inner"><div class="logo">wishful.art</div></div></header>
 
+  <main class="auth-page">
+    <div class="card auth-card">
+      <h1>register</h1>
+      <form id="register-form" novalidate>
+        <input name="username" type="text" placeholder="username" required>
+        <input name="email" type="email" placeholder="email" required>
+        <input name="password" type="password" placeholder="password" required minlength="6">
+        <button class="btn btn-primary" type="submit">create account</button>
+      </form>
+    </div>
+  </main>
 
-<div class="container">
-<div class="card">
-<h1>sign in</h1>
-<form>
-<label>
-
-
-<label>email</label>
-<input type="email" placeholder="enter email" />
-
-
-<label>password</label>
-<input type="password" placeholder="enter password" />
-
-
-<button class="submit-btn">sign in</button>
-</form>
-</div>
-</div>
-
-
-<div class="footer">
-© 2025 wishful
-</div>
+  <footer class="site-footer"><div class="inner"><div class="right-foot">© 2025 wishful</div></div></footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
