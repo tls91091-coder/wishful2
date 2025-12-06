@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wishful.art | sign in</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0d1117 0%, #1b2634 50%, #0d1117 100%);
+      color: white;
+      font-family: "Chela One", cursive;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      text-align: center;
+      padding: 25px 0;
+      font-size: 40px;
+      color: #bcdcff;
+      letter-spacing: 2px;
+    }
+
+    .card {
+      margin: auto;
+      width: 420px;
+      background: rgba(28, 52, 70, 0.55);
+      padding: 50px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card h1 {
+      font-size: 55px;
+      color: #bcdcff;
+      margin-bottom: 30px;
+    }
+
+    input {
+      width: 80%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 2px solid #b3dbff;
+      background: rgba(255,255,255,0.10);
+      border-radius: 6px;
+      font-size: 20px;
+      color: white;
+      outline: none;
+      font-family: "Chela One", cursive;
+    }
+
+    input:focus {
+      border-color: #d2e8ff;
+      box-shadow: 0 0 10px #b3dbff88;
+    }
+
+    .signin-btn {
+      margin-top: 20px;
+      background: #b3dbff;
+      border: none;
+      padding: 18px 60px;
+      color: white;
+      font-size: 32px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.2s ease;
+      font-family: "Chela One", cursive;
+    }
+
+    .signin-btn:hover {
+      background: #cce6ff;
+      transform: scale(1.03);
+    }
+
+    .register-link {
+      margin-top: 20px;
+      display: block;
+      color: #bcdcff;
+      font-size: 22px;
+      text-decoration: none;
+    }
+
+    footer {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      color: #9aa8b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>wishful.art</header>
+
+  <div class="card">
+    <h1>sign in</h1>
+
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password">
+
+    <button class="signin-btn">sign in</button>
+
+    <a href="wishful-register.html" class="register-link">
+      don't have an account? register
+    </a>
+  </div>
+
+  <footer>© 2025 wishful</footer>
+
+</body>
+</html>
