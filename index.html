@@ -1,95 +1,48 @@
-<!doctype html>
+@@ -1,4 +1,4 @@
+<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>wishful.art | home</title>
+  <meta charset="UTF-8" />
+@@ -15,11 +15,8 @@
+    <div class="logo">wishful.art</div>
 
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+    <nav>
+      <!-- Correct sign in link -->
+      <a href="wishful-signin.html">sign in</a>
 
-  <!-- main stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="inner">
-      <div class="logo">wishful.art</div>
-
-      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
-
-      <nav class="main-nav" id="main-nav">
-        <a href="wishful-signin.html" class="nav-link">sign in</a>
-        <a href="wishful-register.html" class="nav-link">register</a>
-        <a href="wishful-suggestions.html" class="nav-link">suggestions</a>
-        <a href="wishful-contact.html" class="nav-link">contact</a>
-      </nav>
-    </div>
+      <!-- Correct register link -->
+      <a href="wishful-register.html" class="register">register</a>
+      <a href="wishful-signin.html" class="nav-link">sign in</a>
+      <a href="wishful-register.html" class="nav-link register">register</a>
+    </nav>
   </header>
 
-  <main class="site-main">
-    <section class="hero">
-      <div class="hero-inner">
-        <h1>wishful</h1>
-        <p class="lede">A personal site for selling merchandise, taking commissions, and building an art community.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="wishful-register.html">register now</a>
-          <a class="btn btn-outline" href="wishful-suggestions.html">join community</a>
-        </div>
-      </div>
-    </section>
+@@ -62,7 +59,6 @@ <h3>active development</h3>
+        <h2>improvements</h2>
+        <p>suggest features to improve our service</p>
 
-    <section class="info" aria-labelledby="info-heading">
-      <div class="inner">
-        <h2 id="info-heading">information</h2>
-        <p>This is a personal website made for selling merchandise art and ordering commissions. The site will include a gallery, videos, contact form, and a suggestions inbox.</p>
+        <!-- Correct suggest features button -->
+        <button class="filled" onclick="window.location.href='wishful-inbox.html'">
+          suggest features
+        </button>
+@@ -72,10 +68,7 @@ <h2>improvements</h2>
 
-        <div class="info-grid">
-          <article class="card">
-            <h3>active development</h3>
-            <p>We provide regular updates and improvements.</p>
-          </article>
+  <footer>
+    <div class="left-foot">
+      <!-- Correct contact link -->
+      <a href="wishful-contact.html">contact</a>
 
-          <article class="card">
-            <h3>gallery</h3>
-            <p>High-quality images to showcase work.</p>
-          </article>
-
-          <article class="card">
-            <h3>community</h3>
-            <p>Forums and suggestion submission for features.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="media" aria-labelledby="media-heading">
-      <div class="inner">
-        <h2 id="media-heading">featured video</h2>
-
-        <!-- embedded YouTube example (replace with your own video or local file) -->
-        <div class="video-wrap">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Featured video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="inner">
-      <div class="left-foot">
-        <a href="wishful-contact.html">contact</a>
-        <a href="wishful-signin.html">sign in</a>
-      </div>
-
-      <div class="right-foot">© 2025 wishful</div>
+      <!-- Correct sign in link -->
+      <a href="wishful-signin.html">sign in</a>
     </div>
-  </footer>
 
-  <script src="js/main.js"></script>
-</body>
-</html>
+@@ -87,3 +80,4 @@ <h2>improvements</h2>
+
+
+
+
+
 
 
 
