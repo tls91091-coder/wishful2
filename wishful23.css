@@ -1,4 +1,6 @@
- {
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +14,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
 
 header {
   background: #0a0b0f;
@@ -42,7 +43,6 @@ header nav .register {
   border-radius: 4px;
   font-family: monospace;
 }
-
 
 main {
   display: flex;
@@ -92,7 +92,6 @@ button.outline {
   color: #cde6ff;
   border: 1px solid #cde6ff;
 }
-
 
 .right {
   width: 45%;
@@ -170,8 +169,8 @@ input {
   width: 100%;
   padding: 12px;
   margin-top: 8px;
-  background-color: #0f141b;       
-  border: 1px solid #3a3f4b;      
+  background-color: #0f141b;
+  border: 1px solid #3a3f4b;
   border-radius: 6px;
   color: #c9d1d9;
   font-size: 16px;
@@ -179,18 +178,17 @@ input {
 }
 
 input:focus {
-  border-color: #9ab9ff;           
+  border-color: #9ab9ff;
   box-shadow: 0 0 8px #9ab9ff55;
   outline: none;
 }
-
 
 .submit-btn {
   width: 100%;
   margin-top: 30px;
   padding: 12px;
-  background-color: #9ab9ff;       
-  color: #0d1117;                 
+  background-color: #9ab9ff;
+  color: #0d1117;
   font-weight: 700;
   border: none;
   border-radius: 6px;
@@ -200,61 +198,17 @@ input:focus {
 }
 
 .submit-btn:hover {
-  background-color: #b3c8ff;       
+  background-color: #b3c8ff;
   box-shadow: 0 0 12px #9ab9ff55;
+  opacity: 0.9;
 }
 
-
-.submit-btn {
-width: 100%;
-margin-top: 30px;
-padding: 12px;
-background-color: #9ab9ff;
-color: #0d1117;
-font-weight: 700;
-border: none;
-border-radius: 6px;
-cursor: pointer;
-font-size: 18px;
-}
-
-
-.submit-btn:hover {
-opacity: 0.9;
-}
-
-
+/* small utility footer fixed on screen */
 .footer {
-text-align: center;
-margin-top: 60px;
-padding: 20px;
-color: #6e7681;
-font-size: 14px;
-}
-.submit-btn {
-width: 100%;
-margin-top: 30px;
-padding: 12px;
-background-color: #9ab9ff;
-color: #0d1117;
-font-weight: 700;
-border: none;
-border-radius: 6px;
-cursor: pointer;
-font-size: 18px;
-}
-
-
-.submit-btn:hover {
-opacity: 0.9;
-}
-
-
-.footer {
-position: fixed;
-bottom: 20px;
-right: 20px;
-color: #6e7681;
-font-size: 14px;
-text-align: right;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #6e7681;
+  font-size: 14px;
+  text-align: right;
 }
