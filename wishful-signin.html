@@ -1,44 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>wishful.art | sign in</title>
-  <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>wishful.art | home</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="wishful23.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="inner">
-      <div class="logo">wishful.art</div>
-      <nav class="main-nav">
-        <a href="index.html" class="nav-link">home</a>
-        <a href="wishful-register.html" class="nav-link">register</a>
-      </nav>
-    </div>
+  <header>
+    <div class="logo">wishful.art</div>
+
+    <nav>
+      <a href="wishful-signin.html">sign in</a>
+
+      <a href="wishful-register.html" class="register">register</a>
+
+      <a href="wishful-register.html">
+      
+</button>
+      </a>
+    
+    </nav>
   </header>
 
-  <main class="auth-page">
-    <div class="card auth-card">
-      <h1>sign in</h1>
-      <form id="signin-form" novalidate>
-        <input name="email" type="email" placeholder="email" required>
-        <input name="password" type="password" placeholder="password" required minlength="6">
-        <button class="btn btn-primary" type="submit">sign in</button>
-      </form>
+  <main>
+    <section class="left">
+      <h1>wishful</h1>
 
-      <a class="register-link" href="wishful-register.html">don't have an account? register</a>
-    </div>
+      <p>
+        This is a personal website made for selling merchandise art and ordering commissions.
+        I also plan to cultivate a community encouraging others to share their art as well.
+      </p>
+
+      <div class="buttons">
+        <a href="wishful-register.html">
+          <button class="filled">register now</button>
+        </a>
+      </div>
+
+    </section>
+
+    <section class="right">
+      <h2>information</h2>
+
+      <p>
+        This is a personal website made for selling merchandise art and ordering commissions.
+        I also plan to cultivate a community encouraging others to share their art as well.
+      </p>
+
+      <div class="info-boxes">
+        <div class="info-box">
+          <h3>active development</h3>
+          <p>we provide regular updates and improvements</p>
+        </div>
+
+        <div class="info-box"></div>
+        <div class="info-box"></div>
+        <div class="info-box"></div>
+      </div>
+
+      <div class="improvements">
+        <h2>improvements</h2>
+        <p>suggest features to improve our service</p>
+      
+<button class="filled" onclick="window.location.href='wishful-inbox.html'">
+  suggest features
+      </div>
+    
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="inner">
-      <div class="left-foot"></div>
-      <div class="right-foot">© 2025 wishful</div>
+  <footer>
+    <div class="left-foot">
+      <a href="#">contact</a>
+      <a href="wishful-signin.html">sign in</a>
     </div>
-  </footer>
+  <
 
-  <script src="js/main.js"></script>
+    <div class="right-foot">© 2025 wishful</div>
+  </footer>
 </body>
 </html>
 
